@@ -1,0 +1,102 @@
+.nav-link {
+    color: #e2e2e2;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: rgba(255, 192, 203, 0);
+}
+
+.nav-link.active {
+    color: #e40057!important;
+    border: none;
+    border-bottom: 5px solid #e40057!important;
+    background-color: #e4005700!important;
+    border-radius: 0.25rem;
+}
+
+a:hover {
+    color: #e40057;
+    text-decoration: underline;
+}
+
+.btn-outline-primary {
+    color: #e2e2e2;
+    border-color: #e40057;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #e40057;
+    border-color: #e40057;
+}
+
+.btn-outline-primary.focus,
+.btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(228, 0, 87, .5);
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.show>.btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #e40057;
+    border-color: #e40057;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-outline-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(228, 0, 87, .5);
+}
+
+.form-control {
+    background-color: #e2e2e200;
+    color: #e2e2e2;
+    border: 0.1px solid #e40057;
+}
+
+.btn-outline-branco {
+    color: #e2e2e2;
+    border-color: rgba(228, 0, 87, .5);
+}
+
+.btn-outline-branco:hover {
+    color: #161616;
+    background-color: #e2e2e2;
+    border-color: rgb(226, 226, 226);
+}
+
+.btn-outline-branco.focus,
+.btn-outline-branco:focus {
+    box-shadow: 0 0 0 0.2rem rgba(226, 226, 226, .5);
+}
+
+.btn-outline-branco:not(:disabled):not(.disabled):active,
+.show>.btn-outline-branco.dropdown-toggle {
+    color: #161616;
+    background-color: #e2e2e2;
+    border-color: #e2e2e2;
+}
+
+.btn-outline-branco:not(:disabled):not(.disabled):active:focus,
+.show>.btn-outline-branco.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(226, 226, 226, .5);
+}
+
+.form-control:focus {
+    color: #fff;
+    background-color: #161616;
+    border-color: #e40057;
+    outline: 0;
+    box-shadow: none;
+}
+
+.mt-20 {
+    margin-top: 20%;
+}
+
+.mb-10 {
+    margin-bottom: 10%;
+}

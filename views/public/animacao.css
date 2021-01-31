@@ -1,0 +1,33 @@
+.diamante,
+.textos-direita {
+    position: relative;
+    animation-name: entrarDiamante;
+    animation-duration: 2s;
+}
+
+@keyframes entrarDiamante {
+    0% {
+        display: none;
+        right: -100%;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+.textos-esquerda {
+    position: relative;
+    animation-name: entrarTextoHome;
+    animation-duration: 2s;
+    width: 100%;
+}
+
+@keyframes entrarTextoHome {
+    0% {
+        display: none;
+        left: -100%;
+    }
+    100% {
+        left: 0px;
+    }
+}

@@ -1,0 +1,151 @@
+::-webkit-scrollbar-track {
+    background-color: #161616;
+}
+
+ ::-webkit-scrollbar {
+    width: 6px;
+    height: 0px;
+    background: #161616;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #e40057;
+    border-radius: .25rem;
+}
+
+html,
+body,
+#paginas,
+.tab-pane {
+    height: 100%;
+}
+
+body {
+    background-color: #161616;
+}
+
+.bg-black {
+    background-color: #161616;
+    color: whitesmoke;
+}
+
+.bg-black-escuro {
+    background-color: #000000;
+    color: whitesmoke;
+}
+
+.logo-nome {
+    width: 15%;
+}
+
+@media only screen and (max-width: 575px) {
+    .logo-nome {
+        width: 50%;
+    }
+    body {
+        font-size: 12px;
+    }
+    .menuSocial {
+        width: 100%;
+    }
+    .clientes {
+        width: 30%;
+    }
+    h1 {
+        font-size: 1.75rem;
+    }
+    h2 {
+        font-size: 1.50rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+    h4 {
+        font-size: 1.0rem;
+    }
+    h5 {
+        font-size: .75rem;
+    }
+    h6 {
+        font-size: 0.50rem;
+    }
+    .diamante {
+        display: none!important;
+    }
+}
+
+.text-white {
+    color: whitesmoke;
+}
+
+.text-red {
+    color: #e40057;
+}
+
+strong {
+    color: white;
+}
+
+a {
+    color: whitesmoke;
+}
+
+.redesSociais {
+    background-color: #d30250;
+    width: 25px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.peso-leve {
+    font-weight: 100;
+}
+
+.peso-medio {
+    font-weight: 500
+}
+
+#home-row-01 {
+    height: 100%;
+    background-image: url('../image/bg/home-linha1.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#home-row-04 {
+    background-image: url('../image/bg/image826.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.upper-case {
+    text-transform: uppercase;
+}
+
+.clientes {
+    width: 16%;
+    padding: 1%;
+}
+
+.influencers {
+    width: 33.3%;
+    padding: 1%;
+}
+
+#sobre-row-01 {
+    height: 100%;
+    background-image: url('../image/bg/bg-influ.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contato-row-01 {
+    height: 100%;
+    background-image: url('../image/bg/bg-outline.svg');
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
